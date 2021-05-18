@@ -1,11 +1,8 @@
 import java.util.Scanner;
 
-public abstract class Fruits {
+public abstract class Fruits {					//Abstract Class
 	Scanner scan = new Scanner(System.in);
 	
-	public abstract void PrintDetails();
+	public abstract double CalculatePrice();	//Abstract Method
 	
-	public abstract double CalculatePrice();
-	
-	public abstract String toString();
 }
